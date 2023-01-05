@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-login, .form-cadastro {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  a {
+    color: #0077c9;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #006699;
+  }
+  
+  p {
+    margin: 0 0 1em 0;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+  }
+  
+      
+  
+  /*menu */
+
+  #menu {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-toggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+  }
+  
+  .menu-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu-items li {
+    margin: 0 10px;
+  }
+  
+  .menu-items a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s;
+  }
+  
+  .menu-items a:hover {
+    color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .menu-toggle {
+      display: block;
+    }
+    .menu-items {
+      display: none;
+    }
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* cliente tabela */
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  
